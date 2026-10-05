@@ -1,0 +1,55 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# K6 output and reports
+results.json
+summary.json
+*.json.gz
+
+# Node modules (if using npm packages)
+node_modules/
+package-lock.json
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.stackdump
+
+# K6 Cloud cache
+.k6/
+
+# Test artifacts
+*.html
+dist/
+build/
+
+# Legacy/deprecated files (optional - uncomment if using)
+# ApiTest.js
+# LoadTest.js
+# RampingScenario.js
+# SoakTest.js
+# SpikeTest.js
+# StressSoakTest.js
+# StressSpikeTest.js
+# StressTest.js
